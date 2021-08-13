@@ -630,27 +630,28 @@ a:hover {
       -ms-flex-positive: 1;
           flex-grow: 1;
   resize: none;
-  height: 34px;
+  height: 30px;
+  padding: 0;
 }
 
 .add-post__textarea::-webkit-input-placeholder {
-  color: #d2d2d2;
+  color: #aaaaaa;
 }
 
 .add-post__textarea::-moz-placeholder {
-  color: #d2d2d2;
+  color: #aaaaaa;
 }
 
 .add-post__textarea:-ms-input-placeholder {
-  color: #d2d2d2;
+  color: #aaaaaa;
 }
 
 .add-post__textarea::-ms-input-placeholder {
-  color: #d2d2d2;
+  color: #aaaaaa;
 }
 
 .add-post__textarea::placeholder {
-  color: #d2d2d2;
+  color: #aaaaaa;
 }
 
 .add-post__file,
@@ -1445,7 +1446,7 @@ a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     top: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 110px;
     overflow: auto;
     height: calc(100vh - 40px);
     -webkit-transform: translateX(-100%);
@@ -1651,5 +1652,13 @@ a:hover {
 
   .tags {
     margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 13px 20px;
+  }
+
+  .modal__video {
+    width: 100%;
   }
 }
